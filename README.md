@@ -22,7 +22,7 @@
     - `default` ➜ fetch.exe
 
 ## Special:
-  - Two ASCII arts in this project(***Fetch-Sama***)are inspired by the Twitch streamer [vedal987](https://www.twitch.tv/vedal987) (specifically Evil-Neuro & Neuro-sama).
+  - Two ASCII arts in this project(***Fetch-Sama***) are inspired by the Twitch streamer [vedal987](https://www.twitch.tv/vedal987) (specifically Evil-Neuro & Neuro-sama).
 
 ## Build:
 - **Install Dependencies:**

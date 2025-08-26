@@ -1,6 +1,6 @@
 # Fetch-Sama
 
-📁 Fetch-Sama is a `neofetch`-like tool for Windows.
+🔥 Fetch-Sama is a `neofetch`-like tool for Windows.
 ![logo](banner.png)
 
 ## Features:

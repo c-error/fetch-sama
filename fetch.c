@@ -229,9 +229,9 @@ void getMemoryInfo(char* memoryInfo, char* pageInfo, char* virtualInfo, int buff
         double usedVirt = memoryStatus.ullTotalVirtual - memoryStatus.ullAvailVirtual;
         double percentVirt = (usedVirt * 100.0) / memoryStatus.ullTotalVirtual;
 
-        snprintf(memoryInfo, bufferSize, "%.0f / %.0f MiB (%.u%% used)", usedMB, totalMB, memoryStatus.dwMemoryLoad);
-        snprintf(pageInfo, bufferSize, "%.0f / %.0f MiB (%.0f%% used)", totalPageMB - availPageMB, totalPageMB, percentPage);
-        snprintf(virtualInfo, bufferSize, "%.0f / %.0f MiB (%.0f%% used)", totalVirtMB - availVirtMB, totalVirtMB, percentVirt);
+        snprintf(memoryInfo, bufferSize, "%.0f / %.0f MB (%.u%% used)", usedMB, totalMB, memoryStatus.dwMemoryLoad);
+        snprintf(pageInfo, bufferSize, "%.0f / %.0f MB (%.0f%% used)", totalPageMB - availPageMB, totalPageMB, percentPage);
+        snprintf(virtualInfo, bufferSize, "%.0f / %.0f MB (%.0f%% used)", totalVirtMB - availVirtMB, totalVirtMB, percentVirt);
 
     } else {
 

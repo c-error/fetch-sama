@@ -1,5 +1,6 @@
 #include <windows.h>
 #include <stdio.h>
+#include <time.h>
 #include <intrin.h>
 
 #define ART_NEURO_00 "\t\033[38;2;208;168;136m#***#**=***********#\033[38;2;156;106;71m+.\033[38;2;208;168;136m#**#####*#*\033[38;2;156;106;71m+\033[38;2;208;168;136m#*************%#\033[38;2;133;73;40m. ...\n" \
@@ -361,6 +362,14 @@ int main(int argc, char *argv[]) {
         else if (strcmp(argv[1], "evil") == 0) print_evil(hOut, written, title);
         else print_win(hOut, written, title);
 
-    } else print_win(hOut, written, title);
+    } else {
+        
+        SYSTEMTIME st;
+        GetLocalTime(&st);
+
+        if (st.wHour >= 18) print_evil(hOut, written, title);
+        else print_neuro(hOut, written, title);
+
+    }
     return 0;
 }

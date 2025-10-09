@@ -367,7 +367,7 @@ int main(int argc, char *argv[]) {
         SYSTEMTIME st;
         GetLocalTime(&st);
 
-        if (st.wHour >= 18) print_evil(hOut, written, title);
+        if (st.wHour >= 18 || st.wHour <= 6) print_evil(hOut, written, title);
         else print_neuro(hOut, written, title);
 
     }

@@ -57,6 +57,60 @@
                     "\t\033[38;2;149;107;100m:-=\033[38;2;108;68;61m.:=\033[38;2;149;107;100m++-.-====:\033[38;2;108;68;61m--:\033[38;2;254;243;236m:*%%%@@@@@@@@@@@@%\033[38;2;108;68;61m*+-. ...\033[38;2;149;107;100m-+-..----=\n" \
                     "\t\033[38;2;149;107;100m:-=\033[38;2;108;68;61m  :=\033[38;2;149;107;100m--=-==++==\033[38;2;108;68;61m==-\033[38;2;242;189;180m#%#####%%%%%\033[38;2;108;68;61m*+--::-=:--- :\033[38;2;149;107;100m+=.:.+*+*\033[0m\n"
 
+#define ART_ANNY_00 "\t\033[38;2;220;213;215m%#%#\033[38;2;122;103;111m*\033[38;2;220;213;215m%###%%@\033[38;2;122;103;111m=\033[38;2;220;213;215m#%%%%\033[38;2;236;159;185m#%#\033[38;2;220;213;215m*%%%%*%*\033[38;2;122;103;111m%\033[38;2;254;246;240m\033[38;2;254;246;240m@#\033[38;2;122;103;111m*\033[38;2;220;213;215m%*+%%%###%\033[38;2;122;103;111m+-\033[38;2;220;213;215m##%#%##%##\n" \
+                    "\t\033[38;2;220;213;215m##%\033[38;2;122;103;111m*\033[38;2;220;213;215m#%%#%%%@\033[38;2;122;103;111m++\033[38;2;220;213;215m@%%%\033[38;2;236;159;185m#%#\033[38;2;220;213;215m+@%%%*##\033[38;2;122;103;111m*\033[38;2;254;246;240m\033[38;2;254;246;240m@@#=\033[38;2;122;103;111m*=-*\033[38;2;220;213;215m%%%##%\033[38;2;122;103;111m++\033[38;2;220;213;215m%#*###@##\n" \
+                    "\t\033[38;2;220;213;215m###\033[38;2;122;103;111m*\033[38;2;220;213;215m#%##%%#%\033[38;2;122;103;111m+*\033[38;2;220;213;215m#%%#\033[38;2;236;159;185m#@#\033[38;2;220;213;215m+%%%%#*%\033[38;2;122;103;111m*\033[38;2;254;246;240m\033[38;2;254;246;240m@@%@%%\033[38;2;122;103;111m=+\033[38;2;220;213;215m*#%%%##\033[38;2;122;103;111m*\033[38;2;220;213;215m#%*###%*%\n" \
+                    "\t\033[38;2;220;213;215m###\033[38;2;122;103;111m*\033[38;2;220;213;215m####%#%%\033[38;2;122;103;111m*\033[38;2;254;246;240m%\033[38;2;122;103;111m#\033[38;2;220;213;215m%%\033[38;2;122;103;111m#\033[38;2;236;159;185m%%*\033[38;2;220;213;215m*#%\033[38;2;220;213;215m%%%+#*\033[38;2;254;246;240m%@@@@@@%\033[38;2;122;103;111m*=+*\033[38;2;220;213;215m#%%\033[38;2;122;103;111m*\033[38;2;220;213;215m#%*#%#@#%\n"
+#define ART_ANNY_04 "\t\033[38;2;220;213;215m###\033[38;2;122;103;111m*\033[38;2;220;213;215m#%*#%*%#\033[38;2;122;103;111m+\033[38;2;254;246;240m%+\033[38;2;122;103;111m*\033[38;2;220;213;215m*\033[38;2;122;103;111m#\033[38;2;236;159;185m%%-\033[38;2;220;213;215m##*\033[38;2;220;213;215m%%%#+#\033[38;2;254;246;240m#@@@@@@@@@\033[38;2;122;103;111m**\033[38;2;220;213;215m%##@@@#@+#%#%\t\t\033[38;2;220;213;215m"
+#define ART_ANNY_05 "\t\033[38;2;220;213;215m*#%\033[38;2;122;103;111m*\033[38;2;220;213;215m###%%=%\033[38;2;122;103;111m=\033[38;2;254;246;240m#%@\033[38;2;122;103;111m*\033[38;2;220;213;215m*\033[38;2;236;159;185m%%*\033[38;2;220;213;215m+-@+\033[38;2;220;213;215m#%#%*+#\033[38;2;254;246;240m@@@@@@@@@@@\033[38;2;122;103;111m*=+-+\033[38;2;220;213;215m%=\033[38;2;122;103;111m*\033[38;2;220;213;215m##@**\t\t\033[38;2;122;103;111m-----------------------\n"
+#define ART_ANNY_06 "\t\033[38;2;220;213;215m*%%\033[38;2;122;103;111m*\033[38;2;220;213;215m*#*%\033[38;2;122;103;111m+**#\033[38;2;254;246;240m@@@%\033[38;2;236;159;185m*#*\033[38;2;220;213;215m****\033[38;2;220;213;215m@=*#%%++\033[38;2;254;246;240m@@@@@@@#\033[38;2;124;85;166m-      \033[38;2;122;103;111m-\033[38;2;220;213;215m# \033[38;2;122;103;111m*\033[38;2;220;213;215m%%%*%\t\t\033[38;2;220;213;215mOS: \033[38;2;254;246;240m"
+#define ART_ANNY_07 "\t\033[38;2;220;213;215m##%#\033[38;2;122;103;111m=\033[38;2;220;213;215m#%#\033[38;2;122;103;111m-#*\033[38;2;254;246;240m@@@@\033[38;2;236;159;185m***\033[38;2;220;213;215m#+*%\033[38;2;220;213;215m**%=+###+*\033[38;2;254;246;240m@@@@%\033[38;2;124;85;166m  \033[38;2;204;158;246m== . \033[38;2;255;255;255m-@@\033[38;2;122;103;111m+ \033[38;2;220;213;215m#@#@*#\t\t\033[38;2;220;213;215mKernel: \033[38;2;254;246;240m"
+#define ART_ANNY_08 "\t\033[38;2;220;213;215m#%#@\033[38;2;122;103;111m=\033[38;2;220;213;215m#%\033[38;2;122;103;111m=**\033[38;2;254;246;240m%@@@\033[38;2;236;159;185m**\033[38;2;220;213;215m\033[38;2;254;246;240m@@\033[38;2;122;103;111m+\033[38;2;220;213;215m-#%%\033[38;2;254;246;240m*\033[38;2;220;213;215m#%+\033[38;2;254;246;240m+\033[38;2;220;213;215m***=\033[38;2;254;246;240m%@@*\033[38;2;124;85;166m   \033[38;2;204;158;246m*#:-.\033[38;2;255;255;255m:@#\033[38;2;220;213;215m#\033[38;2;254;246;240m+\033[38;2;122;103;111m++\033[38;2;220;213;215m#%%%\t\t\033[38;2;220;213;215mUptime: \033[38;2;254;246;240m"
+#define ART_ANNY_09 "\t\033[38;2;220;213;215m##%@\033[38;2;122;103;111m*+*+*\033[38;2;254;246;240m@@@@@@@@@%\033[38;2;122;103;111m***\033[38;2;220;213;215m#\033[38;2;254;246;240m**\033[38;2;220;213;215m%@\033[38;2;254;246;240m**\033[38;2;220;213;215m##++\033[38;2;254;246;240m%@#\033[38;2;124;85;166m. \033[38;2;204;158;246m+=.+%+\033[38;2;255;255;255m+@@@#\033[38;2;122;103;111m+*\033[38;2;220;213;215m#%#%\t\t\033[38;2;220;213;215mShell: \033[38;2;254;246;240m"
+#define ART_ANNY_10 "\t\033[38;2;220;213;215m#\033[38;2;122;103;111m*\033[38;2;220;213;215m*@%\033[38;2;122;103;111m=\033[38;2;122;103;111m*\033[38;2;220;213;215m#\033[38;2;254;246;240m@@@#*      \033[38;2;254;246;240m%%#\033[38;2;220;213;215m*#\033[38;2;254;246;240m*+\033[38;2;220;213;215m#@\033[38;2;254;246;240m%%@@%%\033[38;2;254;246;240m@@@##%#%%@@@@%\033[38;2;122;103;111m**\033[38;2;220;213;215m%#%*%\t\t\033[38;2;220;213;215mRoot: \033[38;2;254;246;240m"
+#define ART_ANNY_11 "\t\033[38;2;220;213;215m#\033[38;2;122;103;111m+\033[38;2;220;213;215m#*%%\033[38;2;122;103;111m#\033[38;2;254;246;240m@#      \033[38;2;204;158;246m+*   \033[38;2;124;85;166m+\033[38;2;254;246;240m%@@@%%@@@@@@@@@@@@@@@@@\033[38;2;255;208;199m%%%@\033[38;2;220;213;215m##%+@+*\t\t\033[38;2;220;213;215mCurrent: \033[38;2;254;246;240m"
+#define ART_ANNY_12 "\t\033[38;2;220;213;215m@\033[38;2;122;103;111m*\033[38;2;220;213;215m%%=#\033[38;2;122;103;111m*   \033[38;2;255;255;255m=  \033[38;2;204;158;246m. =*:: \033[38;2;124;85;166m#\033[38;2;254;246;240m@@@@@@@@@@@@@@@@@@@@@\033[38;2;255;208;199m%%#%%\033[38;2;122;103;111m*\033[38;2;220;213;215m%*@+#+*\t\t\033[38;2;220;213;215mResolution: \033[38;2;254;246;240m"
+#define ART_ANNY_13 "\t\033[38;2;220;213;215m#\033[38;2;122;103;111m+\033[38;2;220;213;215m#@%=\033[38;2;122;103;111m*-\033[38;2;255;255;255m:@@% \033[38;2;204;158;246m:#+.*%+\033[38;2;124;85;166m%\033[38;2;254;246;240m@@@@@@@@%@@@@@@@@@\033[38;2;255;208;199m%%%%#%#%\033[38;2;122;103;111m-+\033[38;2;220;213;215m#%##-+\t\t\033[38;2;220;213;215mRefresh: \033[38;2;254;246;240m"
+#define ART_ANNY_14 "\t\033[38;2;220;213;215m#\033[38;2;122;103;111m*\033[38;2;220;213;215m#@%@\033[38;2;122;103;111m**+*\033[38;2;254;246;240m@@%+#%%@@@@@@@@@@@@\033[38;2;255;214;203m%#\033[38;2;254;246;240m@@@@@@@@@\033[38;2;255;208;199m%%%%%%\033[38;2;220;213;215m#*#\033[38;2;254;246;240m#\033[38;2;122;103;111m=*\033[38;2;220;213;215m#%#\t\t\033[38;2;220;213;215mMemory: \033[38;2;254;246;240m"
+#define ART_ANNY_15 "\t\033[38;2;220;213;215m#\033[38;2;122;103;111m*\033[38;2;220;213;215m%@%%@#\033[38;2;122;103;111m%\033[38;2;254;246;240m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%\033[38;2;255;208;199m@@@%%\033[38;2;220;213;215m##\033[38;2;254;246;240m#@#\033[38;2;122;103;111m+*\033[38;2;220;213;215m#+*\t\t\033[38;2;220;213;215mPageFile: \033[38;2;254;246;240m"
+#define ART_ANNY_16 "\t\033[38;2;220;213;215m+\033[38;2;122;103;111m#\033[38;2;220;213;215m%@%##@#\033[38;2;122;103;111m#\033[38;2;254;246;240m@@%@\033[38;2;255;208;199m%%%%%%%\033[38;2;254;246;240m@@@@@@@@@@@@@@@@@@@@@@@@@@@@\033[38;2;122;103;111m+*\033[38;2;220;213;215m#+%+\t\t\033[38;2;220;213;215mVirtual: \033[38;2;254;246;240m"
+#define ART_ANNY_17 "\t\033[38;2;220;213;215m**\033[38;2;122;103;111m*\033[38;2;220;213;215m%%%##%#*\033[38;2;122;103;111m%\033[38;2;254;246;240m@\033[38;2;255;208;199m%%#%#%%\033[38;2;254;246;240m@@@@@@@@@@@@@@@@@@@@@@@@@@@@\033[38;2;122;103;111m+*\033[38;2;220;213;215m#**@*\t\t\033[38;2;220;213;215mDisk: \033[38;2;254;246;240m"
+#define ART_ANNY_18 "\t\033[38;2;220;213;215m#\033[38;2;122;103;111m++*\033[38;2;122;103;111m*\033[38;2;220;213;215m%%#*#\033[38;2;255;208;199m%%%%%%#%%%%\033[38;2;254;246;240m@@@@@@@@@\033[38;2;235;188;183m*+*\033[38;2;254;246;240m@@@@@@@@@@@@@@\033[38;2;122;103;111m++\033[38;2;220;213;215m##+#%#\t\t\033[38;2;220;213;215mCPU: \033[38;2;254;246;240m"
+#define ART_ANNY_19 "\t\033[38;2;220;213;215m****\033[38;2;122;103;111m=++\033[38;2;122;103;111m*\033[38;2;220;213;215m#*+\033[38;2;254;246;240m\033[38;2;255;208;199m*##%%%%%%\033[38;2;254;246;240m@@@@@@@@@@@@@@@@@@@@@@@@@%\033[38;2;122;103;111m++**\033[38;2;220;213;215m%****\t\t\033[38;2;220;213;215mGPU: \033[38;2;254;246;240m"
+#define ART_ANNY_20 "\t\033[38;2;220;213;215m*#*%\033[38;2;122;103;111m=#+=++#=-\033[38;2;255;208;199m####%\033[38;2;254;246;240m@@@@@@@@@@@@@@@@@@@@@@@@@@\033[38;2;122;103;111m+++\033[38;2;220;213;215m#**%#*%*\n" \
+                    "\t\033[38;2;220;213;215m#+%@\033[38;2;122;103;111m=#*+++%++=\033[38;2;254;246;240m*@@@@@@@@@@@@@@@@@@@@@@@@@@@#\033[38;2;122;103;111m:*\033[38;2;220;213;215m=#*+#%+#@#\t\t\033[38;2;220;213;215m\033[40m   \033[41m   \033[42m   \033[43m   \033[44m   \033[45m   \033[46m   \033[47m   \033[0m\n" \
+                    "\t\033[38;2;220;213;215m@##%=\033[38;2;122;103;111m#**=+%++*==\033[38;2;254;246;240m+%@@@@@@@@@@@@@@@@@@@@@@\033[38;2;122;103;111m*++\033[38;2;220;213;215m==*%*=@%#@#@\t\t\033[38;2;220;213;215m\033[100m   \033[101m   \033[102m   \033[103m   \033[104m   \033[105m   \033[106m   \033[107m   \033[0m\n" \
+                    "\t\033[38;2;220;213;215m%#+#+#\033[38;2;122;103;111m**-+#=+**+:.=\033[38;2;254;246;240m+#%@@@@@@@@@@@@@@@@#\033[38;2;122;103;111m+-+*-=*\033[38;2;220;213;215m%*#%%#%#%\n" \
+                    "\t\033[38;2;220;213;215m%%*@*#*\033[38;2;122;103;111m*=#==+*+*=:==-:==\033[38;2;254;246;240m+++####%%@@%\033[38;2;246;190;182m*++#\033[38;2;122;103;111m\033[38;2;122;103;111m*++==\033[38;2;220;213;215m###%%%%\033[38;2;122;103;111m*+-\n" \
+                    "\t\033[38;2;220;213;215m@%%@%%##%#+\033[38;2;122;103;111m+*####-**++++\033[38;2;246;190;182m+--+%##*###*#%%%@\033[38;2;122;103;111m+++*\033[38;2;220;213;215m#@@@@@%\033[38;2;122;103;111m#--\033[0m\n"
+
+#define ART_987_00 "\t\033[38;2;84;170;102m*%#*#############*+**********++++++*##*:\033[38;2;42;42;42m .:::::::::::::\n" \
+                   "\t\033[38;2;84;170;102m*#************++=-+\033[38;2;127;199;131m**##%#\033[38;2;158;211;152m%%%%%%%%%###*##-\033[38;2;42;42;42m   .::::::::::\n" \
+                   "\t\033[38;2;84;170;102m************+=+\033[38;2;127;199;131m*#%@%\033[38;2;158;211;152m@@@@@@@@@@@@@@@@@@@@@#=.\033[38;2;42;42;42m  ..:::::::\n" \
+                   "\t\033[38;2;84;170;102m*#********==\033[38;2;127;199;131m*#%\033[38;2;158;211;152m@@@@@%@%%%%%%%%%%%%%%%%%@@@@@%=\033[38;2;42;42;42m  .::::::\n"
+#define ART_987_04 "\t\033[38;2;84;170;102m***+++*+==\033[38;2;127;199;131m*%@%\033[38;2;158;211;152m@@%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@=\033[38;2;42;42;42m  .::::\t\t\033[38;2;84;170;102m"
+#define ART_987_05 "\t\033[38;2;84;170;102m=*++++=-\033[38;2;127;199;131m+%%\033[38;2;158;211;152m@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@:\033[38;2;42;42;42m .:::\t\t\033[38;2;80;80;80m-----------------------\n"
+#define ART_987_06 "\t\033[38;2;84;170;102m*****+=\033[38;2;127;199;131m#@%\033[38;2;158;211;152m@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@=\033[38;2;42;42;42m .::\t\t\033[38;2;84;170;102mOS: \033[38;2;255;255;255m"
+#define ART_987_07 "\t\033[38;2;84;170;102m+*+*==\033[38;2;127;199;131m#%%\033[38;2;158;211;152m@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%@@+\033[38;2;42;42;42m .:\t\t\033[38;2;84;170;102mKernel: \033[38;2;255;255;255m"
+#define ART_987_08 "\t\033[38;2;84;170;102m+**=\033[38;2;127;199;131m+%%\033[38;2;158;211;152m%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@%@@-\033[38;2;42;42;42m :\t\t\033[38;2;84;170;102mUptime: \033[38;2;255;255;255m"
+#define ART_987_09 "\t\033[38;2;84;170;102m+*==\033[38;2;127;199;131m%%\033[38;2;158;211;152m%@@@@%%@@@%%%%%%%%%%%%%%%%%%%%%%%@@@##+*@@@@%@@\033[38;2;42;42;42m..\t\t\033[38;2;84;170;102mShell: \033[38;2;255;255;255m"
+#define ART_987_10 "\t\033[38;2;84;170;102m+*-\033[38;2;127;199;131m#%%\033[38;2;158;211;152m@%@@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%@\033[38;2;255;255;255m*:    -\033[38;2;158;211;152m@@@%@+ \t\t\033[38;2;84;170;102mRoot: \033[38;2;255;255;255m"
+#define ART_987_11 "\t\033[38;2;84;170;102m++\033[38;2;127;199;131m+@#\033[38;2;158;211;152m%%%%@%\033[38;2;255;255;255m+::-*\033[38;2;158;211;152m@@%%%%%%%%%%%%%%%%%%%%%@\033[38;2;255;255;255m+@@    -\033[38;2;158;211;152m#@%%@@ \t\t\033[38;2;84;170;102mCurrent: \033[38;2;255;255;255m"
+#define ART_987_12 "\t\033[38;2;84;170;102m*=\033[38;2;127;199;131m*%#\033[38;2;158;211;152m%@%%@\033[38;2;255;255;255m%:     *\033[38;2;158;211;152m@%%%%%%%%%%%%%%%%%%%%@\033[38;2;255;255;255m+      \033[38;2;255;255;255m=\033[38;2;158;211;152m@@%%@@\033[38;2;42;42;42m:\t\t\033[38;2;84;170;102mResolution: \033[38;2;255;255;255m"
+#define ART_987_13 "\t\033[38;2;84;170;102m+=\033[38;2;127;199;131m#%#\033[38;2;158;211;152m%%%@%\033[38;2;255;255;255m@@    =:\033[38;2;158;211;152m@@%%%%%%%%%%%%%%%%%%%@@\033[38;2;255;255;255m*.  .+\033[38;2;158;211;152m%@%%%%@\033[38;2;42;42;42m:\t\t\033[38;2;84;170;102mRefresh: \033[38;2;255;255;255m"
+#define ART_987_14 "\t\033[38;2;84;170;102m=-\033[38;2;127;199;131m#%#\033[38;2;158;211;152m%@%@%       \033[38;2;255;255;255m*\033[38;2;158;211;152m@%%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%%@\033[38;2;42;42;42m:\t\t\033[38;2;84;170;102mMemory: \033[38;2;255;255;255m"
+#define ART_987_15 "\t\033[38;2;84;170;102m*=\033[38;2;127;199;131m*@#\033[38;2;158;211;152m%%%%@%\033[38;2;255;255;255m=. :+*\033[38;2;158;211;152m@@%%%%%%%%%%%%%%%%%%%%%%%@@@@%%%%%%@@ \t\t\033[38;2;84;170;102mPageFile: \033[38;2;255;255;255m"
+#define ART_987_16 "\t\033[38;2;84;170;102m===\033[38;2;127;199;131m@%%\033[38;2;158;211;152m%%%%@@@@@@@%%%%%%%%%%\033[38;2;42;42;42m+++++\033[38;2;158;211;152m%%%%%%%%%%%%%%%%%%%%@* \t\t\033[38;2;84;170;102mVirtual: \033[38;2;255;255;255m"
+#define ART_987_17 "\t\033[38;2;84;170;102m=+:\033[38;2;127;199;131m+%%\033[38;2;158;211;152m%%%%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@\033[38;2;42;42;42m..\t\t\033[38;2;84;170;102mDisk: \033[38;2;255;255;255m"
+#define ART_987_18 "\t\033[38;2;158;211;152m@@%\033[38;2;84;170;102m=+\033[38;2;127;199;131m%%%\033[38;2;158;211;152m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%@@@%\033[38;2;42;42;42m. :\t\t\033[38;2;84;170;102mCPU: \033[38;2;255;255;255m"
+#define ART_987_19 "\t\033[38;2;158;211;152m%@@@\033[38;2;84;170;102m+=\033[38;2;127;199;131m*%@\033[38;2;158;211;152m@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%@@@@%\033[38;2;42;42;42m-  .:\t\t\033[38;2;84;170;102mGPU: \033[38;2;255;255;255m"
+#define ART_987_20 "\t\033[38;2;158;211;152m%@%%@#\033[38;2;84;170;102m+=\033[38;2;127;199;131m*@@\033[38;2;158;211;152m@@@@%@%%%%%%%%%@%%%%%@%@%@%@%@@@@%\033[38;2;84;170;102m#**#\033[38;2;42;42;42m  .:::\n" \
+                   "\t\033[38;2;158;211;152m%@%%%@@%\033[38;2;84;170;102m*=\033[38;2;127;199;131m+%@\033[38;2;158;211;152m@@@@@@@@@@@@@@@@@@@@@@@@@%#\033[38;2;84;170;102m*#**%@*\033[38;2;158;211;152m+++\033[38;2;42;42;42m ::::\t\t\033[38;2;220;213;215m\033[40m   \033[41m   \033[42m   \033[43m   \033[44m   \033[45m   \033[46m   \033[47m   \033[0m\n" \
+                   "\t\033[38;2;158;211;152m%@%%%%%@@\033[38;2;84;170;102m=  .:=\033[38;2;127;199;131m+*#%%@%\033[38;2;158;211;152m@@@@@%%%%#\033[38;2;84;170;102m**#*++++*\033[38;2;158;211;152m#%%@@@@@@\033[38;2;42;42;42m ::::\t\t\033[38;2;220;213;215m\033[100m   \033[101m   \033[102m   \033[103m   \033[104m   \033[105m   \033[106m   \033[107m   \033[0m\n" \
+                   "\t\033[38;2;158;211;152m%@%%%%%@@\033[38;2;84;170;102m*\033[38;2;42;42;42m ...                    \033[38;2;158;211;152m#@@@@@@@@@@@@@@+\033[38;2;42;42;42m ::::\n" \
+                   "\t\033[38;2;158;211;152m%@%%%%@@@%\033[38;2;42;42;42m .:::::.:.........:.:::..+\033[38;2;158;211;152m%@@@@@@%#*=:.\033[38;2;42;42;42m :::::\n" \
+                   "\t\033[38;2;158;211;152m%@%@@@@@@@\033[38;2;42;42;42m.:::::::::::::::::::::::.  ..::...   ..::::::\033[0m\n"
+
 #define ART_WIN_01 "\t\033[38;2;138;200;11m                                               . \n" \
                    "\t\033[38;2;138;200;11m                                   ::=+*#%@@@@@@+\n"
 #define ART_WIN_03 "\t\033[38;2;138;200;11m                     .-  -%%@@@@@@@@@@@@@@\033[38;2;103;149;8m@@@@\033[38;2;138;200;11m@@=\t\t"
@@ -258,79 +312,129 @@ void getDiskInfo(char* diskInfo, int bufferSize) {
 }
 
 
-void print_neuro(HANDLE hOut, DWORD written, char* shell) {
+void print_neuro(HANDLE hOut, DWORD _, char* shell) {
 
     char bufferA[256], bufferB[256], bufferC[256], bufferD[256];
 
-    WriteConsoleA(hOut, ART_NEURO_00, sizeof(ART_NEURO_00) - 1, &written, NULL);
-    WriteConsoleA(hOut, ART_NEURO_04, sizeof(ART_NEURO_04) - 1, &written, NULL);getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;156;106;71m @ \033[38;2;182;242;237m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_05, sizeof(ART_NEURO_05) - 1, &written, NULL);
-    WriteConsoleA(hOut, ART_NEURO_06, sizeof(ART_NEURO_06) - 1, &written, NULL);getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_07, sizeof(ART_NEURO_07) - 1, &written, NULL);getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_08, sizeof(ART_NEURO_08) - 1, &written, NULL);getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_09, sizeof(ART_NEURO_09) - 1, &written, NULL);                                               fputs(shell, stdout);   fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_10, sizeof(ART_NEURO_10) - 1, &written, NULL);                                               fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_11, sizeof(ART_NEURO_11) - 1, &written, NULL);GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_12, sizeof(ART_NEURO_12) - 1, &written, NULL);getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_13, sizeof(ART_NEURO_13) - 1, &written, NULL);getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_14, sizeof(ART_NEURO_14) - 1, &written, NULL);getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_15, sizeof(ART_NEURO_15) - 1, &written, NULL);                                               fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_16, sizeof(ART_NEURO_16) - 1, &written, NULL);                                               fputs(bufferC, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_17, sizeof(ART_NEURO_17) - 1, &written, NULL);getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_NEURO_18, sizeof(ART_NEURO_18) - 1, &written, NULL);getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);                                    
-    WriteConsoleA(hOut, ART_NEURO_19, sizeof(ART_NEURO_19) - 1, &written, NULL);getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);      
-    WriteConsoleA(hOut, ART_NEURO_20, sizeof(ART_NEURO_20) - 1, &written, NULL);
+    WriteConsoleA(hOut, ART_NEURO_00, 672-1, &_, NULL); 
+    WriteConsoleA(hOut, ART_NEURO_04, 227-1, &_, NULL); getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;156;106;71m @ \033[38;2;182;242;237m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_05, 250-1, &_, NULL); 
+    WriteConsoleA(hOut, ART_NEURO_06, 231-1, &_, NULL); getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_07, 253-1, &_, NULL); getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_08, 253-1, &_, NULL); getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_09, 289-1, &_, NULL);                                                fputs(shell, stdout);   fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_10, 364-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_11, 404-1, &_, NULL); GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_12, 407-1, &_, NULL); getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_13, 367-1, &_, NULL); getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_14, 292-1, &_, NULL); getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_15, 257-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_16, 256-1, &_, NULL);                                                fputs(bufferC, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_17, 253-1, &_, NULL); getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_NEURO_18, 288-1, &_, NULL); getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);                                    
+    WriteConsoleA(hOut, ART_NEURO_19, 230-1, &_, NULL); getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);      
+    WriteConsoleA(hOut, ART_NEURO_20, 1237-1, &_, NULL);
     exit(0);
 }
 
-void print_evil(HANDLE hOut, DWORD written, char* shell) {
+void print_evil(HANDLE hOut, DWORD _, char* shell) {
 
     char bufferA[256], bufferB[256], bufferC[256], bufferD[256];
 
-    WriteConsoleA(hOut, ART_EVIL_00, sizeof(ART_EVIL_00) - 1, &written, NULL);
-    WriteConsoleA(hOut, ART_EVIL_04, sizeof(ART_EVIL_04) - 1, &written, NULL);getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;108;68;61m @ \033[38;2;176;25;64m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_05, sizeof(ART_EVIL_05) - 1, &written, NULL);
-    WriteConsoleA(hOut, ART_EVIL_06, sizeof(ART_EVIL_06) - 1, &written, NULL);getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_07, sizeof(ART_EVIL_07) - 1, &written, NULL);getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_08, sizeof(ART_EVIL_08) - 1, &written, NULL);getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_09, sizeof(ART_EVIL_09) - 1, &written, NULL);                                               fputs(shell, stdout);   fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_10, sizeof(ART_EVIL_10) - 1, &written, NULL);                                               fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_11, sizeof(ART_EVIL_11) - 1, &written, NULL);GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_12, sizeof(ART_EVIL_12) - 1, &written, NULL);getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_13, sizeof(ART_EVIL_13) - 1, &written, NULL);getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_14, sizeof(ART_EVIL_14) - 1, &written, NULL);getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_15, sizeof(ART_EVIL_15) - 1, &written, NULL);                                               fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_16, sizeof(ART_EVIL_16) - 1, &written, NULL);                                               fputs(bufferC, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_17, sizeof(ART_EVIL_17) - 1, &written, NULL);getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_EVIL_18, sizeof(ART_EVIL_18) - 1, &written, NULL);getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);                                   
-    WriteConsoleA(hOut, ART_EVIL_19, sizeof(ART_EVIL_19) - 1, &written, NULL);getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);     
-    WriteConsoleA(hOut, ART_EVIL_20, sizeof(ART_EVIL_20) - 1, &written, NULL);
+    WriteConsoleA(hOut, ART_EVIL_00, 661-1, &_, NULL); 
+    WriteConsoleA(hOut, ART_EVIL_04, 224-1, &_, NULL); getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;108;68;61m @ \033[38;2;176;25;64m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_05, 246-1, &_, NULL); 
+    WriteConsoleA(hOut, ART_EVIL_06, 228-1, &_, NULL); getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_07, 249-1, &_, NULL); getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_08, 249-1, &_, NULL); getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_09, 283-1, &_, NULL);                                                fputs(shell, stdout);   fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_10, 355-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_11, 394-1, &_, NULL); GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_12, 397-1, &_, NULL); getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_13, 358-1, &_, NULL); getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_14, 285-1, &_, NULL); getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_15, 255-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_16, 254-1, &_, NULL);                                                fputs(bufferC, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_17, 251-1, &_, NULL); getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_EVIL_18, 286-1, &_, NULL); getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);                                   
+    WriteConsoleA(hOut, ART_EVIL_19, 227-1, &_, NULL); getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);     
+    WriteConsoleA(hOut, ART_EVIL_20, 1219-1, &_, NULL);
     exit(0);
 }
 
-void print_win(HANDLE hOut, DWORD written, char* shell) {
+void print_anny(HANDLE hOut, DWORD _, char* shell) {
 
     char bufferA[256], bufferB[256], bufferC[256], bufferD[256];
 
-    WriteConsoleA(hOut, ART_WIN_01, sizeof(ART_WIN_01) - 1, &written, NULL);
-    // WriteConsoleA(hOut, ART_WIN_02, sizeof(ART_WIN_02) - 1, &written, NULL);
-    WriteConsoleA(hOut, ART_WIN_03, sizeof(ART_WIN_03) - 1, &written, NULL);getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;103;149;8m @ \033[38;2;255;183;3m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_04, sizeof(ART_WIN_04) - 1, &written, NULL);
-    WriteConsoleA(hOut, ART_WIN_05, sizeof(ART_WIN_05) - 1, &written, NULL);getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_06, sizeof(ART_WIN_06) - 1, &written, NULL);getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_07, sizeof(ART_WIN_07) - 1, &written, NULL);getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_08, sizeof(ART_WIN_08) - 1, &written, NULL);                                               fputs(shell, stdout);   fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_09, sizeof(ART_WIN_09) - 1, &written, NULL);                                               fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_10, sizeof(ART_WIN_10) - 1, &written, NULL);GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_11, sizeof(ART_WIN_11) - 1, &written, NULL);getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_12, sizeof(ART_WIN_12) - 1, &written, NULL);getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_13, sizeof(ART_WIN_13) - 1, &written, NULL);getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_14, sizeof(ART_WIN_14) - 1, &written, NULL);                                               fputs(bufferB, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_15, sizeof(ART_WIN_15) - 1, &written, NULL);                                               fputs(bufferC, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_16, sizeof(ART_WIN_16) - 1, &written, NULL);getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);                                   
-    WriteConsoleA(hOut, ART_WIN_17, sizeof(ART_WIN_17) - 1, &written, NULL);getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);     
-    WriteConsoleA(hOut, ART_WIN_18, sizeof(ART_WIN_18) - 1, &written, NULL);getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);
-    WriteConsoleA(hOut, ART_WIN_19, sizeof(ART_WIN_19) - 1, &written, NULL);
+    WriteConsoleA(hOut, ART_ANNY_00, 1331-1, &_, NULL);
+    WriteConsoleA(hOut, ART_ANNY_04, 344-1, &_, NULL); getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;122;103;111m @ \033[38;2;204;158;246m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_05, 387-1, &_, NULL); 
+    WriteConsoleA(hOut, ART_ANNY_06, 366-1, &_, NULL); getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_07, 370-1, &_, NULL); getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_08, 522-1, &_, NULL); getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_09, 388-1, &_, NULL);                                                fputs(shell, stdout);   fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_10, 388-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_11, 295-1, &_, NULL); GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_12, 317-1, &_, NULL); getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_13, 314-1, &_, NULL); getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_14, 333-1, &_, NULL); getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_15, 297-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_16, 277-1, &_, NULL);                                                fputs(bufferC, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_17, 274-1, &_, NULL); getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_ANNY_18, 292-1, &_, NULL); getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);                                   
+    WriteConsoleA(hOut, ART_ANNY_19, 273-1, &_, NULL); getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);     
+    WriteConsoleA(hOut, ART_ANNY_20, 1198-1, &_, NULL);
+    exit(0);
+}
+
+void print_vedal(HANDLE hOut, DWORD _, char* shell) {
+
+    char bufferA[256], bufferB[256], bufferC[256], bufferD[256];
+
+    WriteConsoleA(hOut, ART_987_00, 479-1, &_, NULL);
+    WriteConsoleA(hOut, ART_987_04, 149-1, &_, NULL); getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;80;80;80m @ \033[38;2;158;211;152m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_05, 171-1, &_, NULL); 
+    WriteConsoleA(hOut, ART_987_06, 172-1, &_, NULL); getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_07, 176-1, &_, NULL); getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_08, 176-1, &_, NULL); getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_09, 175-1, &_, NULL);                                                fputs(shell, stdout);   fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_10, 196-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_11, 237-1, &_, NULL); GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_12, 275-1, &_, NULL); getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_13, 253-1, &_, NULL); getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_14, 214-1, &_, NULL); getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_15, 200-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_16, 196-1, &_, NULL);                                                fputs(bufferC, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_17, 174-1, &_, NULL); getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_987_18, 192-1, &_, NULL); getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);                                   
+    WriteConsoleA(hOut, ART_987_19, 192-1, &_, NULL); getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);     
+    WriteConsoleA(hOut, ART_987_20, 1091-1, &_, NULL);
+    exit(0);
+}
+
+void print_win(HANDLE hOut, DWORD _, char* shell) {
+
+    char bufferA[256], bufferB[256], bufferC[256], bufferD[256];
+
+    WriteConsoleA(hOut, ART_WIN_01, 139-1, &_, NULL);
+    // WriteConsoleA(hOut, ART_WIN_02, sizeof(ART_WIN_02) - 1, &_, NULL);
+    WriteConsoleA(hOut, ART_WIN_03, 106-1, &_, NULL); getHostInfo(bufferA, bufferB, 256);            fputs(bufferA, stdout); fputs("\033[38;2;103;149;8m @ \033[38;2;255;183;3m", stdout); fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_04, 147-1, &_, NULL); 
+    WriteConsoleA(hOut, ART_WIN_05, 164-1, &_, NULL); getOSInfo(bufferA, bufferB, 256);              fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_06, 168-1, &_, NULL); getKernelInfo(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_07, 168-1, &_, NULL); getUptime(bufferA, 256);                       fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_08, 167-1, &_, NULL);                                                fputs(shell, stdout);   fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_09, 166-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_10, 99-1, &_, NULL);  GetCurrentDirectory(256, bufferA);             fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_11, 102-1, &_, NULL); getResolution(bufferA, 256);                   fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_12, 99-1, &_, NULL);  getFps(bufferA, 256);                          fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_13, 98-1, &_, NULL);  getMemoryInfo(bufferA, bufferB, bufferC, 256); fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_14, 170-1, &_, NULL);                                                fputs(bufferB, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_15, 169-1, &_, NULL);                                                fputs(bufferC, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_16, 166-1, &_, NULL); getDiskInfo(bufferA, 256);                     fputs(bufferA, stdout); fputs("\n", stdout);                                   
+    WriteConsoleA(hOut, ART_WIN_17, 165-1, &_, NULL); getCPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);     
+    WriteConsoleA(hOut, ART_WIN_18, 165-1, &_, NULL); getGPUInfo(bufferA, 256);                      fputs(bufferA, stdout); fputs("\n", stdout);
+    WriteConsoleA(hOut, ART_WIN_19, 499-1, &_, NULL);
     exit(0);
 }
 
@@ -338,14 +442,14 @@ int main(int argc, char *argv[]) {
 
     char title[256];
 
-    DWORD written;
+    DWORD _;
     DWORD dwMode = 0;
     HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
     GetConsoleMode(hOut, &dwMode);
     dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
     SetConsoleMode(hOut, dwMode);
     
-    if (GetConsoleTitleA(title, sizeof(title))) snprintf(title, 256, strrchr(title, '\\') + 1);
+    if (GetConsoleTitleA(title, 256)) snprintf(title, 256, strrchr(title, '\\') + 1);
     else snprintf(title, 256, "Unknown");
 
     SetConsoleOutputCP(65001);
@@ -358,18 +462,32 @@ int main(int argc, char *argv[]) {
 
     if (argc > 1) {
 
-        if (strcmp(argv[1], "neuro") == 0) print_neuro(hOut, written, title);
-        else if (strcmp(argv[1], "evil") == 0) print_evil(hOut, written, title);
-        else print_win(hOut, written, title);
+        if (strcmp(argv[1], "neuro") == 0) print_neuro(hOut, _, title);
+        else if (strcmp(argv[1], "evil") == 0) print_evil(hOut, _, title);
+        else if (strcmp(argv[1], "anny") == 0) print_anny(hOut, _, title);
+        else if (strcmp(argv[1], "vedal") == 0) print_vedal(hOut, _, title);
+        else print_win(hOut, _, title);
 
     } else {
         
         SYSTEMTIME st;
         GetLocalTime(&st);
 
-        if (st.wHour >= 18 || st.wHour <= 6) print_evil(hOut, written, title);
-        else print_neuro(hOut, written, title);
+        if (st.wHour >= 18 || st.wHour <= 6) print_evil(hOut, _, title);
+        else print_neuro(hOut, _, title);
 
     }
+
+
+
+
+
+
+
+
+
+
+    // printf("%zu\n", sizeof(ART_WIN_01));
+
     return 0;
 }

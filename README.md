@@ -27,11 +27,11 @@
     ```
 - Custom:
   - Example Diagram:
-    ![demo3](demo/demo_3.png)
-
+    ![demo3](demo/diagram.png)
+    change text color using `fetch`. make fore/background color RGB.
 
 ## Special:
-  - Four ASCII arts in this project(***Fetch-Sama***) are inspired by the Twitch streamers [anny](https://www.twitch.tv/anny) & [vedal987](https://www.twitch.tv/vedal987).
+  - Four ASCII arts in this project(***Fetch-Sama***) are inspired by the Twitch streamers [Anny](https://www.twitch.tv/anny) & [Vedal987](https://www.twitch.tv/vedal987).
 
 ## Build:
 - **Install Dependencies:**
@@ -82,14 +82,15 @@ The project has the following structure:
 ├── LICENSE
 ├── README.md
 │
-└─── demo
-      │
-      ├── demo_1.png
-      ├── demo_2.png
-      ├── demo_3.png
-      ├── demo_4.png
-      ├── demo_5.png
-      └ pic_1.png
+└── demo
+    │
+    ├── diagram.png
+    ├── demo_1.png
+    ├── demo_2.png
+    ├── demo_3.png
+    ├── demo_4.png
+    ├── demo_5.png
+    └── pic_1.png
 ```
 
 ## Contributing:

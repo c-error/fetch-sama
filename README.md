@@ -9,7 +9,7 @@
 - **RGB** - prints `RGB` color text in the terminal (cmd, PowerShell, etc.) instead of the default ANSI colors.
 
 ## Demo:
-![pic1](demo/pic_1.png)
+![demo3](demo/demo_3.png)
 
 ## Usage:
 - Run:

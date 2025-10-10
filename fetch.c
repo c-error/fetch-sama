@@ -134,6 +134,8 @@
                    "\t\033[38;2;138;200;11m                          ::-=+*%%@@@@@@@@@@@@@@-\t\t\033[100m   \033[101m   \033[102m   \033[103m   \033[104m   \033[105m   \033[106m   \033[107m   \033[0m\n" \
                    "\t\033[38;2;138;200;11m                                        .:-=+#%@-\033[0m\n"
 
+
+
 void getOSInfo(char* osInfo, char* osRoot, int bufferSize) {
     HKEY hKey;
     DWORD dwType = REG_SZ;
@@ -172,6 +174,8 @@ void getOSInfo(char* osInfo, char* osRoot, int bufferSize) {
     }
 }
 
+
+
 void getHostInfo(char* hostName, char* userName, int bufferSize) {
     DWORD size = bufferSize;
     GetComputerNameA(hostName, &size);
@@ -179,6 +183,8 @@ void getHostInfo(char* hostName, char* userName, int bufferSize) {
     size = bufferSize;
     GetUserNameA(userName, &size);
 }
+
+
 
 void getKernelInfo(char* kernelInfo, int bufferSize) {
     OSVERSIONINFOEX osvi;
@@ -192,6 +198,8 @@ void getKernelInfo(char* kernelInfo, int bufferSize) {
         snprintf(kernelInfo, bufferSize, "Unknown");
     }
 }
+
+
 
 void getUptime(char* uptime, int bufferSize) {
     DWORD tickCount = GetTickCount();
@@ -208,11 +216,15 @@ void getUptime(char* uptime, int bufferSize) {
     }
 }
 
+
+
 void getResolution(char* resolution, int bufferSize) {
     int width = GetSystemMetrics(SM_CXSCREEN);
     int height = GetSystemMetrics(SM_CYSCREEN);
     snprintf(resolution, bufferSize, "%dx%d", width, height);
 }
+
+
 
 void getCPUInfo(char* cpuInfo, int bufferSize) {
     int CPUInfo[4] = {-1};
@@ -239,6 +251,8 @@ void getCPUInfo(char* cpuInfo, int bufferSize) {
     }
 }
 
+
+
 void getGPUInfo(char* gpuInfo, int bufferSize) {
     DISPLAY_DEVICE displayDevice;
     displayDevice.cb = sizeof(DISPLAY_DEVICE);
@@ -249,6 +263,8 @@ void getGPUInfo(char* gpuInfo, int bufferSize) {
         snprintf(gpuInfo, bufferSize, "Unknown GPU");
     }
 }
+
+
 
 void getFps(char* buffer, int bufferSize) {
     DEVMODE devMode;
@@ -262,6 +278,8 @@ void getFps(char* buffer, int bufferSize) {
         snprintf(buffer, bufferSize, "Unknown FPS");
     }
 }
+
+
 
 void getMemoryInfo(char* memoryInfo, char* pageInfo, char* virtualInfo, int bufferSize) {
     MEMORYSTATUSEX memoryStatus;
@@ -296,6 +314,8 @@ void getMemoryInfo(char* memoryInfo, char* pageInfo, char* virtualInfo, int buff
     }
 }
 
+
+
 void getDiskInfo(char* diskInfo, int bufferSize) {
     ULARGE_INTEGER freeBytesAvailable, totalNumberOfBytes, totalNumberOfFreeBytes;
     
@@ -310,6 +330,7 @@ void getDiskInfo(char* diskInfo, int bufferSize) {
         snprintf(diskInfo, bufferSize, "Unknown");
     }
 }
+
 
 
 void print_neuro(HANDLE hOut, DWORD _, char* shell) {
@@ -337,6 +358,8 @@ void print_neuro(HANDLE hOut, DWORD _, char* shell) {
     exit(0);
 }
 
+
+
 void print_evil(HANDLE hOut, DWORD _, char* shell) {
 
     char bufferA[256], bufferB[256], bufferC[256], bufferD[256];
@@ -361,6 +384,8 @@ void print_evil(HANDLE hOut, DWORD _, char* shell) {
     WriteConsoleA(hOut, ART_EVIL_20, 1219-1, &_, NULL);
     exit(0);
 }
+
+
 
 void print_anny(HANDLE hOut, DWORD _, char* shell) {
 
@@ -387,6 +412,8 @@ void print_anny(HANDLE hOut, DWORD _, char* shell) {
     exit(0);
 }
 
+
+
 void print_vedal(HANDLE hOut, DWORD _, char* shell) {
 
     char bufferA[256], bufferB[256], bufferC[256], bufferD[256];
@@ -411,6 +438,8 @@ void print_vedal(HANDLE hOut, DWORD _, char* shell) {
     WriteConsoleA(hOut, ART_987_20, 1091-1, &_, NULL);
     exit(0);
 }
+
+
 
 void print_win(HANDLE hOut, DWORD _, char* shell) {
 
@@ -438,9 +467,26 @@ void print_win(HANDLE hOut, DWORD _, char* shell) {
     exit(0);
 }
 
+
+
+void unescape_033(char *s) {
+    char *dst = s;
+    while (*s) {
+        if (s[0] == '\\' && s[1] == '0' && s[2] == '3' && s[3] == '3') {
+            *dst++ = 27;
+            s += 4;
+        } else {
+            *dst++ = *s++;
+        }
+    }
+    *dst = '\0';
+}
+
+
+
 int main(int argc, char *argv[]) {
 
-    char title[256];
+    char buffer[256];
 
     DWORD _;
     DWORD dwMode = 0;
@@ -449,45 +495,43 @@ int main(int argc, char *argv[]) {
     dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
     SetConsoleMode(hOut, dwMode);
     
-    if (GetConsoleTitleA(title, 256)) snprintf(title, 256, strrchr(title, '\\') + 1);
-    else snprintf(title, 256, "Unknown");
+    if (GetConsoleTitleA(buffer, 256)) snprintf(buffer, 256, strrchr(buffer, '\\') + 1);
+    else snprintf(buffer, 256, "Unknown");
 
     SetConsoleOutputCP(65001);
 
-    title[20] = ' ';
-    title[21] = '.';
-    title[22] = '.';
-    title[23] = '.';
-    title[24] = '\0';
+    buffer[20] = ' ';
+    buffer[21] = '.';
+    buffer[22] = '.';
+    buffer[23] = '.';
+    buffer[24] = '\0';
 
     if (argc > 1) {
 
-        if (strcmp(argv[1], "neuro") == 0) print_neuro(hOut, _, title);
-        else if (strcmp(argv[1], "evil") == 0) print_evil(hOut, _, title);
-        else if (strcmp(argv[1], "anny") == 0) print_anny(hOut, _, title);
-        else if (strcmp(argv[1], "vedal") == 0) print_vedal(hOut, _, title);
-        else print_win(hOut, _, title);
+        if (strcmp(argv[1], "neuro") == 0) print_neuro(hOut, _, buffer);
+        else if (strcmp(argv[1], "evil") == 0) print_evil(hOut, _, buffer);
+        else if (strcmp(argv[1], "anny") == 0) print_anny(hOut, _, buffer);
+        else if (strcmp(argv[1], "vedal") == 0) print_vedal(hOut, _, buffer);
+        else if (strcmp(argv[1], "win") == 0) print_win(hOut, _, buffer);
+        else {
+
+            unescape_033(argv[1]);
+            WriteConsoleA(hOut, argv[1], strlen(argv[1]), &_, NULL);
+            exit(0);
+        }
 
     } else {
         
         SYSTEMTIME st;
         GetLocalTime(&st);
 
-        if (st.wHour >= 18 || st.wHour <= 6) print_evil(hOut, _, title);
-        else print_neuro(hOut, _, title);
+        if (st.wHour >= 18 || st.wHour <= 6) print_evil(hOut, _, buffer);
+        else print_neuro(hOut, _, buffer);
 
     }
-
-
-
-
-
-
-
-
-
 
     // printf("%zu\n", sizeof(ART_WIN_01));
 
     return 0;
 }
+

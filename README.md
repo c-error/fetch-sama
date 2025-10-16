@@ -10,7 +10,7 @@
 - **Custom** - custom console text color using `\033[`.
 
 ## Demo:
-![demo3](demo/demo_3.png)
+![demo3](demo/demo-5.png)
 
 ## Usage:
 - Run:

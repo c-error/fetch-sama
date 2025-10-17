@@ -5,9 +5,9 @@
 
 ## Features:
 - **Fast** – written in `C` to print system info as fast as possible.
-- **ASCII** - includes 5 different ASCII arts (Evil, Neuro, Anny, Vedal & Windows).
+- **ASCII** - includes 11 different ASCII arts.
 - **RGB** - prints `RGB` color text in the terminal (cmd, PowerShell, etc.) instead of the default ANSI colors.
-- **Custom** - custom console text color using `\033[`.
+- **Custom** - custom console text color using `rgb` CLI.
 
 ## Demo:
 ![demo3](demo/demo-5.png)
@@ -15,23 +15,26 @@
 ## Usage:
 - Run:
     ```sh
-    > fetch [name]
+    fetch.exe help
+    fetch.exe auto                          # print evil/neuro art based on time
+    fetch.exe <file name>                   # print txt file art
+    fetch.exe rgb b <r;g;b> <string>        # set background color
+    fetch.exe rgb f <r;g;b> <string>        # set foreground color
+    fetch.exe rgb rst                       # reset all colors
+
+
+    # example:
+    
+    fetch.exe rgb b 255;0;0 "Hello-World!"
+    fetch.exe rgb f 0;255;0 "Hello-World!"
     ```
-- Example:
-    ```sh
-    > fetch evil     # art ➜ evil
-    > fetch neuro    # art ➜ neuro
-    > fetch anny     # art ➜ anny
-    > fetch vedal    # art ➜ vedal
-    > fetch win      # art ➜ windows
-    ```
-- Custom:
-  - Example Diagram:
-    ![demo3](demo/diagram.png)
-    change text color using `fetch`. make fore/background color RGB.
 
 ## Special:
-  - Four ASCII arts in this project(***Fetch-Sama***) are inspired by the Twitch streamers [Anny](https://www.twitch.tv/anny) & [Vedal987](https://www.twitch.tv/vedal987).
+  - Four ASCII arts in this project(***Fetch-Sama***) are inspired by the Twitch streamers
+      - [Anny](https://www.twitch.tv/anny)
+      - [Vedal987](https://www.twitch.tv/vedal987)
+      - [Aquwa](https://www.twitch.tv/aquwa)
+      - [Camila](https://www.twitch.tv/camila)
 
 ## Build:
 - **Install Dependencies:**
@@ -82,15 +85,33 @@ The project has the following structure:
 ├── LICENSE
 ├── README.md
 │
+├── configs
+│   │
+│   ├── anny.txt
+│   ├── aquwa.txt
+│   ├── camimi.txt
+│   ├── cog.txt
+│   ├── evil.txt
+│   ├── heart.txt
+│   ├── imp.txt
+│   ├── irl987.txt
+│   ├── neuro.txt
+│   ├── roshi.txt
+│   └── vedal.txt
+│   
 └── demo
     │
-    ├── diagram.png
-    ├── demo_1.png
-    ├── demo_2.png
-    ├── demo_3.png
-    ├── demo_4.png
-    ├── demo_5.png
-    └── pic_1.png
+    ├── demo-0.png
+    ├── demo-1.png
+    ├── demo-2.png
+    ├── demo-3.png
+    ├── demo-4.png
+    ├── demo-5.png
+    ├── demo-6.png
+    ├── demo-7.png
+    ├── demo-8.png
+    ├── demo-9.png
+    └── demo-10.png
 ```
 
 ## Contributing:

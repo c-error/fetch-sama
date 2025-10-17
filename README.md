@@ -10,7 +10,7 @@
 - **Custom** - custom console text color using `rgb` CLI.
 
 ## Demo:
-![demo3](demo/demo-5.png)
+![demo](demo/demo-5.png)
 
 ## Usage:
 - just type `.txt` file name (located in .\configs\<file-name>.txt) like this `fetch evil` or `fetch anny` etc.
@@ -86,6 +86,9 @@
   - run `fetch <your-text-file-name>`.
   - NOTE: don't run `fetch filename.txt` onlly run `fetch filename`
 
+  - ## Format:
+   ![format](demo/format.png)
+
 ## Build:
 - **Install Dependencies:**
     - Download and install [MSYS2](https://www.msys2.org/).
@@ -151,6 +154,7 @@ The project has the following structure:
 │   
 └── demo
     │
+    ├── format.png
     ├── demo-0.png
     ├── demo-1.png
     ├── demo-2.png

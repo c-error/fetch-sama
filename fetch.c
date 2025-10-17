@@ -122,6 +122,10 @@ int main(int argc, char *argv[]) {
             printHelp(hOut, argv[0]);
             return 1;
         }
+    } else if (strcmp(argv[1], "help") == 0) {
+        
+        printHelp(hOut, argv[0]);
+        return 0;
     }
 
     char value[256];
